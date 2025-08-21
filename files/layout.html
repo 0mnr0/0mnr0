@@ -16,15 +16,17 @@ body {margin: 0px; color: white}
 	
 .UserStats {
     display: flex;
+    flex-direction: column;
     position: absolute;
     z-index: 1;
     top: 50%;
     width: 100%;
     justify-content: center;
-    transform: translateY(-100%);
-    gap: 10%;
+    transform: translateY(-50%);
+    gap: 40px;
+    left: 6%;
 }
-		
+	
 video.background, video.foreground {z-index: -1; position: absolute; top: 0; left; 0; width: 100%; height: 100%; object-fit: cover}
 video.foreground {z-index: 2;}
 		
@@ -32,11 +34,16 @@ video.foreground {z-index: 2;}
     backdrop-filter: blur(12px) brightness(0.65);
     border-radius: 20px;
     border: solid 1px white;
-    width: fit-content;
+    width: 368px;
 	scale: 1;
     height: 160px;
     object-fit: contain;
 }
+
+.UserStats img.exc {
+	height: 170px;
+}
+
 .username {
     font-family: 'Tektur';
     position: absolute;
@@ -51,12 +58,11 @@ span.invisiblehelpers {opacity: 0}
 </style>
 	<style id="playwhight"> .content, html {width: 912px; height: 513px;} </style>
 	<div class="content">
-		<video class="background" muted loop onerror="this.style.background='red'" src="https://github.com/0mnr0/0mnr0/raw/refs/heads/main/files/background.webm"></video>
-		<video class="foreground" muted loop onerror="this.style.background='green'" src="https://github.com/0mnr0/0mnr0/raw/refs/heads/main/files/foreground.webm"></video>
+		<video class="background" muted loop onerror="this.style.background='red'" src="background.webm"></video>
 		
 		
 		<div class="UserStats">
-			<img src="https://github-readme-stats.vercel.app/api?username=0mnr0&hide_border=true&locale=ru&border_radius=10&text_color=fff&show_icons=true&disable_animations=true&show=discussions_started&bg_color=00000000&title_color=ffffff">
+			<img class="exc" src="https://github-readme-stats.vercel.app/api?username=0mnr0&hide_border=true&locale=ru&border_radius=10&text_color=fff&show_icons=true&disable_animations=true&show=discussions_started&bg_color=00000000&title_color=ffffff">
 			<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0mnr0&card_width=380&hide_border=true&layout=compact&text_color=fff&border_radius=10&show_icons=true&disable_animations=true&theme=date_night&border_radius=10&locale=ru&bg_color=00000000&title_color=ffffff">
 		</div>
 		
