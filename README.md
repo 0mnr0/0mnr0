@@ -1,2 +1,1 @@
-![0mnr0 GitHub stats](https://github-readme-stats.vercel.app/api?username=0mnr0&show_icons=true&theme=date_night&border_radius=10&locale=ru)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0mnr0&layout=donut&theme=date_night&border_radius=10&locale=ru)
+<img src="https://dsvl0.space/myReadme?person=0mnr0?person=0mnr0&length=7.04&width=912&height=512&quality=85&lockfile=lock.webp&manuallock=true">
