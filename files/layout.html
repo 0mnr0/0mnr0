@@ -19,29 +19,29 @@ video.foreground {z-index: 2;}
 	
 .UserStats {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: absolute;
     z-index: 1;
-    top: 80%;
+    top: 68%;
     width: 100%;
     justify-content: center;
     transform: translateY(-50%);
-    gap: 40px;
-    left: 0%;
+    gap: 5px;
+    left: 10px;
 }
 		
 .UserStats img {
     backdrop-filter: blur(12px) brightness(0.65);
-    border-radius: 20px;
+    border-radius: 14px;
     border: solid 1px transparent;
-    width: 340px;
+    width: 260px;
     scale: 1;
-    height: 165px;
+    height: 120px;
     object-fit: contain;
 }
 
 .UserStats img:not(.exc) {
-	height: -webkit-fill-available;
+	height: 120px;
 }
 
 .username {
@@ -56,9 +56,9 @@ video.foreground {z-index: 2;}
 }
 span.invisiblehelpers {opacity: 0}
 </style>
-	<style id="playwhight"> .content, html {width: 912px; height: 512px;}  </style>
+	<style id="playwhight"> .content, html {width: 1020px; height: 425px;}  </style>
 	<div class="content">
-		<video class="background" autoplay muted loop onerror="this.style.background='red'" src="background.webm"></video>
+		<video class="background" autoplay muted loop src="video.webm"></video>
 		
 		
 		<div class="UserStats">
